@@ -36,7 +36,7 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
@@ -62,7 +62,11 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #f9f9f9;
+  button {  
+    cursor: pointer;
+        border-radius: 20px;
+        background-color: #1a1a1a;
+        background-image: radial-gradient(circle at 50% 33.85%, #00ffff 0, #00ffff 16.67%, #00f6ff 33.33%, #0cd6ed 50%, #2eb7d0 66.67%, #3a9cb6 83.33%, #3f869e 100%);
+        border-color: rgb(255, 255, 255) ;
   }
 }

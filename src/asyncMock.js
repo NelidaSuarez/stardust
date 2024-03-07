@@ -23,7 +23,7 @@ const products = [
       price: 39.999,
       category: "Vinilos",
       img: "https://http2.mlstatic.com/D_NQ_NP_871230-MLU69164449980_042023-O.webp",
-      stock: 2,
+      stock: 7,
       description: "Pink Floyd - Wish You Were Here - Lp",
     },
     {
@@ -50,7 +50,7 @@ const products = [
         price: 26900,
         category: "Consolas",
         img: "https://http2.mlstatic.com/D_NQ_NP_722478-MLA74696658702_022024-O.webp",
-        stock: 3,
+        stock: 9,
         description: "Descripcion de Atari 2600",
       },
       {
@@ -68,7 +68,7 @@ const products = [
         price: 12000,
         category: "Juegos",
         img: "https://http2.mlstatic.com/D_NQ_NP_701541-MLA73226962726_122023-O.webp",
-        stock: 1,
+        stock: 8,
         description: "Descripcion de 2 Cartuchos Juegos Edu Atari",
       },
       {
@@ -77,7 +77,7 @@ const products = [
         price: 12000,
         category: "Juegos",
         img: "https://http2.mlstatic.com/D_NQ_NP_647900-MLA53991482806_022023-O.webp",
-        stock: 1,
+        stock: 12,
         description: "Descripcion de Juego Atari Soccer Game",
       },
       {
@@ -86,7 +86,7 @@ const products = [
         price: 9600,
         category: "Juegos",
         img: "https://http2.mlstatic.com/D_NQ_NP_982275-MLA70677223888_072023-O.webp",
-        stock: 1,
+        stock: 9,
         description: "Descripcion de Missile Command Para Cons Atari",
       },
   ];

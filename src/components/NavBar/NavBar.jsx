@@ -2,13 +2,14 @@ import CartWidget from "../CartWidget/CartWidget"
 import logo from '/logo2.png';
 import { NavLink, Link } from "react-router-dom";
 
+
 const NavBar = () => {
     return (
             
             <nav style={{display:"flex" ,justifyContent:"space-between", alignItems:"center"}} >          
-            <div>
+            <div >
                 <Link to="/" >
-                    <img  src={logo}  alt="Logo2"/>
+                    <img  src={logo}  alt="Logo2" style={{width:"200px"}}/>
                 </Link>    
             </div>
             <section  className="active-color: var(--bs-btn-hover-color)  ">

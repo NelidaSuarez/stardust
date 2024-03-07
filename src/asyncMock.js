@@ -1,8 +1,8 @@
 const products = [
     {
       id: "1",
-      name: "Tocadiscos Winco W408 marrón",
-      price: 102.959,
+      name: "Tocadiscos Winco ",
+      price: 102.999,
       category: "Equipos",
       img: "https://http2.mlstatic.com/D_NQ_NP_702402-MLA41241337976_032020-O.webp",
       stock: 5,
@@ -10,8 +10,8 @@ const products = [
     },
     {
       id: "2",
-      name: "Tocadiscos Vinilo Vintage Retro Winco Apto Amplificador Aux",
-      price: 176.797,
+      name: "Tocadiscos Winco ",
+      price: 176.999,
       category: "Equipos",
       img: "https://http2.mlstatic.com/D_NQ_NP_965789-MLA32307729078_092019-O.webp",
       stock: 6,
@@ -19,7 +19,7 @@ const products = [
     },
     {
       id: "3",
-      name: "Pink Floyd - Wish You Were Here - Lp",
+      name: "Pink Floyd ",
       price: 39.999,
       category: "Vinilos",
       img: "https://http2.mlstatic.com/D_NQ_NP_871230-MLU69164449980_042023-O.webp",
@@ -28,7 +28,7 @@ const products = [
     },
     {
       id: "4",
-      name: "Queen Sheer Heart Attack Lp Vinyl",
+      name: "Queen Sheer Heart Attack ",
       price: 27.999,
       category: "Vinilos",
       img: "https://http2.mlstatic.com/D_NQ_NP_746286-MLU69626544664_052023-O.webp",
@@ -37,8 +37,8 @@ const products = [
     },
     {
         id: "5",
-        name: "Led Zeppelin - Greatest Hits (lp) Procom",
-        price: 22.900,
+        name: "Led Zeppelin - Greatest Hits",
+        price: 22.999,
         category: "Vinilos",
         img: "https://http2.mlstatic.com/D_NQ_NP_877643-MLU73962960259_012024-O.webp",
         stock: 6,
@@ -46,8 +46,8 @@ const products = [
       },
       {
         id: "6",
-        name: "Atari 2600",
-        price: 26900,
+        name: "Atari 2.699",
+        price: 26.999,
         category: "Consolas",
         img: "https://http2.mlstatic.com/D_NQ_NP_722478-MLA74696658702_022024-O.webp",
         stock: 9,
@@ -56,7 +56,7 @@ const products = [
       {
         id: "7",
         name: "Family Game",
-        price: 99.000,
+        price: 49.999,
         category: "Consolas",
         img: "https://http2.mlstatic.com/D_NQ_NP_731040-MLA32731593253_112019-O.webp",
         stock: 4,
@@ -64,8 +64,8 @@ const products = [
       },
       {
         id: "8",
-        name: "2 Cartuchos Juegos Edu Atari",
-        price: 12000,
+        name: " Edu Atari",
+        price: 12.999,
         category: "Juegos",
         img: "https://http2.mlstatic.com/D_NQ_NP_701541-MLA73226962726_122023-O.webp",
         stock: 8,
@@ -73,8 +73,8 @@ const products = [
       },
       {
         id: "9",
-        name: "Juego Atari Soccer Game",
-        price: 12000,
+        name: " Atari Soccer Game",
+        price: 12.999,
         category: "Juegos",
         img: "https://http2.mlstatic.com/D_NQ_NP_647900-MLA53991482806_022023-O.webp",
         stock: 12,
@@ -82,8 +82,8 @@ const products = [
       },
       {
         id: "10",
-        name: "Missile Command Para Cons Atari",
-        price: 9600,
+        name: "Missile Command",
+        price: 9.699,
         category: "Juegos",
         img: "https://http2.mlstatic.com/D_NQ_NP_982275-MLA70677223888_072023-O.webp",
         stock: 9,

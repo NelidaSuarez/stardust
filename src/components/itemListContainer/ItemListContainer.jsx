@@ -12,6 +12,7 @@ const ItemListContainer = ({ greetings }) => {
          const asyncFunc =categoryId ? getProductsByCategory : getProducts
          asyncFunc (categoryId)
 
+        
         .then( Response =>{
             setProducts(Response)
         } )
@@ -22,7 +23,7 @@ const ItemListContainer = ({ greetings }) => {
 
     return (
         <div>
-            <h4>{greetings}</h4>
+            <h1>{greetings}</h1>
             <ItemList products={products}/>
         </div>
     )

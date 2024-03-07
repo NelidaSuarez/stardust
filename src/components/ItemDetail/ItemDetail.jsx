@@ -1,23 +1,23 @@
 import ItemCount from "../ItemCount/ItemCount"
 
 
-const ItemDetail = ({name, img, category, price, description}) => {
+const ItemDetail = ({ name, img, category, price, description, stock}) => {
   return (
     <article>
-      <header>
+      
         <h1> {name} </h1>
-      </header>
-      <picture>
+    
+      
         <img src= {img} style={{width:200}}/>
-      </picture>
-      <section>
+      
+      
         <p> Categoria: {category} </p>
         <p> Descripcion:{description} </p>
-        <p>{price} </p>
-      </section>  
-      <footer>
-        <ItemCount initial={1} stock={10}/>
-      </footer>
+        <p>${price} </p>
+      
+      
+        <ItemCount initial={1} stock={stock} onAdd={(quantity) =>console.log('cantidad agregada',quantity)}/>
+    
     </article>
   )
 }

@@ -1,27 +1,30 @@
+import './NavBar.css'
 import CartWidget from "../CartWidget/CartWidget"
-import logo from '/logo2.png';
+import '/public/gif2.gif'
 import { NavLink, Link } from "react-router-dom";
 
 
 const NavBar = () => {
     return (
-            
-            <nav style={{display:"flex" ,justifyContent:"space-between", alignItems:"center"}} >          
+           <div className='categories'>
+            <nav className="navbar navbar-expand-lg   " >          
             <div >
                 <Link to="/" >
-                    <img  src={logo}  alt="Logo2" style={{width:"200px"}}/>
+                    <img  src={'/gif2.gif'  }  alt="Logo2" style={{width:"200px"}}/>
                 </Link>    
             </div>
             <section  className="active-color: var(--bs-btn-hover-color)  ">
                               
-                <NavLink to={`/category/Equipos`} type="button" className="btn btn-outline-success">Equipos</NavLink> 
-                <NavLink to={`/category/Vinilos`} type="button" className="btn btn-outline-danger">Vinilos</NavLink>               
-                <NavLink to={`/category/Consolas`} type="button" className="btn btn-outline-warning">Consolas</NavLink>
-                <NavLink to={`/category/Juegos`} type="button" className="btn btn-outline-info">Juegos</NavLink>  
+                <NavLink to={`/category/Equipos`} type="button" className="btn btn-outline-success  ">Equipos</NavLink> 
+                <NavLink to={`/category/Vinilos`} type="button" className="btn btn-outline-danger ">Vinilos</NavLink>               
+                <NavLink to={`/category/Consolas`} type="button" className="btn btn-outline-warning ">Consolas</NavLink>
+                <NavLink to={`/category/Juegos`} type="button" className="btn btn-outline-info ">Juegos</NavLink>  
                 
             </section>
+            
             <CartWidget/>
         </nav>
+        </div> 
     ) 
 }
 export default NavBar

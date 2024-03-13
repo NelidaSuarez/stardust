@@ -3,6 +3,9 @@ import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './components/itemListContainer/ItemListContainer'
 import ItemDetailConteiner from './components/ItemDetailContainer/ItemDetailContainer'
 import {BrowserRouter , Routes, Route} from 'react-router-dom'
+import Formulario from './components/Formulario/Formulario'
+
+
 
 
 
@@ -12,7 +15,9 @@ function App() {
   return (
     <>
       <div className='App ' >
+      <Formulario/>
         <BrowserRouter>
+        
           <NavBar/>
           <h4>¡Revive la magia del pasado con nuestros vinilos y equipos retro!</h4>
             <Routes>
@@ -23,7 +28,7 @@ function App() {
             </Routes>
         </BrowserRouter>
         
-       
+        
       </div>
     </>
   )

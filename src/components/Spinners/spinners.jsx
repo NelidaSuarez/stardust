@@ -8,7 +8,6 @@ function SpinnerList() {
       'danger',
       'warning',
       'info',
-      'light',
       'dark'
     ];
   

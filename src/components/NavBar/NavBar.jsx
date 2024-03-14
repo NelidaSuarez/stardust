@@ -17,8 +17,8 @@ const NavBar = () => {
                               
                 <NavLink to={`/category/Equipos`} type="button" className="btn btn-outline-success  ">Equipos</NavLink> 
                 <NavLink to={`/category/Vinilos`} type="button" className="btn btn-outline-danger ">Vinilos</NavLink>               
-                <NavLink to={`/category/Consolas`} type="button" className="btn btn-outline-warning ">Consolas</NavLink>
-                <NavLink to={`/category/Juegos`} type="button" className="btn btn-outline-info ">Juegos</NavLink>  
+                <NavLink to={`/category/Consolas`} type="button" className="btn btn-outline-primary">Consolas</NavLink>
+                <NavLink to={`/category/Juegos`} type="button" className="btn btn-outline-success ">Juegos</NavLink>  
                 
             </section>
             

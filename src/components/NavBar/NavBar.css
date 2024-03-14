@@ -3,15 +3,19 @@
     justify-content: space-around;
     align-items: center;
     height: 60px;
-    background: wheat;
+    
   }
   nav{
     background-color: black;
     
+   
 }
 .Categories {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
   }
-  
+  .btn{
+    margin: 10px
+  }

@@ -1,8 +1,9 @@
 .CartWidget {
     width: auto;
-    padding: 12px;
+    padding: 10px;
+    height: 38px;
     font-size: 8px;
-     background: linear-gradient(#E15F6D , #7E40AC);
+    background: linear-gradient(#E15F6D , #7E40AC);
     border-radius: 8px;
     flex: none;
     display: flex;
@@ -16,8 +17,7 @@
     cursor: pointer;
     outline: inherit;
     font-size: medium;
+    margin-right: 25px;
 }
 
-.CartImg {
-    margin-right: 10px;
-}
+

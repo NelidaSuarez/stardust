@@ -1,6 +1,9 @@
 #root {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   text-align: center;
+  font-size: calc(10px + 2vmin);
 }
 
 
@@ -9,4 +12,6 @@ h4{
   color: rgb(192, 34, 220);
   
 }
+
+
 

@@ -95,7 +95,7 @@ const products = [
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve(products);
-      }, 500);
+      }, 1500);
     });
   };
   
@@ -103,7 +103,7 @@ const products = [
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve(products.filter(prod => prod.category === categoryId));
-      }, 500);
+      }, 1500);
     });
   };
   
@@ -111,7 +111,7 @@ const products = [
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve(products.find(prod => prod.id === productoId));
-      }, 500);
+      }, 1500);
     });
   };
   

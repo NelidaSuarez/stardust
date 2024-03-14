@@ -1,4 +1,5 @@
 .NavBar {
+  width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,11 +12,17 @@
    
 }
 .Categories {
+  
     display: flex;
     justify-content: space-around;
     align-items: center;
     
   }
   .btn{
+    
     margin: 10px
+  }
+  
+  .navb{
+    width: 100%;
   }

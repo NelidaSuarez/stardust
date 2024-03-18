@@ -1,9 +1,12 @@
 import './ItemDetailContainer.css'
 import { useEffect, useState } from "react"
-import { getProductById } from "../../asyncMock";
+//import { getProductById } from "../../asyncMock";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 import Spinner2 from '../Spinners/spinners2';
+
+import {db} from '../../services/firebase/index'
+import { doc, getDoc } from 'firebase/firestore';
 
 const ItemDetailContainer = () => {
     const [ product, setProduct] = useState(null);
@@ -12,16 +15,15 @@ const ItemDetailContainer = () => {
     const { itemId } = useParams()
     
     useEffect( ()=> {
-            getProductById(itemId)
-            .then( Response => {
-                setProduct(Response)
-            })
-            .catch( error => {
-                console.log(error)
-            })
-            .finally(()=>{
-              setLoading(false)
-            })
+      getDoc(doc(db, "products", itemId ))
+      .then((querySnapshot) => {
+          
+        const product = {id: querySnapshot.id, ...querySnapshot.data ()}
+        setProduct(product)
+      })
+      .finally(()=>{
+        setLoading(false)
+      })
     }, [itemId])
 
 

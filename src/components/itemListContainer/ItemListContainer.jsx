@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom"
 import SpinnerList from '../Spinners/spinners'
 
 
-import { db } from '../../services/firebase'
+import { db } from '../../services/firebase/'
 import { collection, getDocs, query, where } from 'firebase/firestore'
 
 const ItemListContainer = ({ greetings }) => {

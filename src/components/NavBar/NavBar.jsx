@@ -22,6 +22,7 @@ const NavBar = () => {
                 </div>   
             </section>
             
+            
             <CartWidget/>
         </nav>
         </div> 

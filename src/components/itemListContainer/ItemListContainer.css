@@ -1,5 +1,5 @@
 .ItemListContainer {
-    margin-left: 200px;
+    margin-left: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,7 +13,7 @@ h3{
 }
 
 .fondo{  
-    background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-degradado-destellos_121461-497.jpg?w=826);
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-dinamico_23-2148999995.jpg?t=st=1711547411~exp=1711551011~hmac=34a1a73cda272c426d5fd3ba6aa96adb01603ac0c37ae033c714608231ab0a52&w=1380);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;

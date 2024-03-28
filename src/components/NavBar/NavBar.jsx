@@ -1,5 +1,5 @@
+import CartWidget from '../CartWidget/CartWidget';
 import './NavBar.css'
-import CartWidget from "../CartWidget/CartWidget"
 import '/public/gif2.gif'
 import { NavLink, Link } from "react-router-dom";
 

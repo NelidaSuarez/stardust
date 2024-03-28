@@ -55,6 +55,8 @@ const ItemListContainer = ({ greetings }) => {
             <div className='fondo1'>
         <div className='ItemListContainer'>
             <h1> {greetings} </h1>
+            <h4>¡Revive la magia con nuestros vinilos y equipos retro!</h4>
+
             <ItemList products={products}/>
         </div>
         </div>

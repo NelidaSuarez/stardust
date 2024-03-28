@@ -1,16 +1,17 @@
+import './Item.css'
 import { Link } from "react-router-dom"
 
 
 const Item = ({id, name, img,  price, stock}) => {
   return (
-    <article  >
+    <article className='card'  >
       <div>
 
       <header className="header">
         <h2> {name} </h2>
       </header>
 
-      <picture>
+      <picture className='img'>
         <img src={img} style={{width:120}} />
       </picture>
 

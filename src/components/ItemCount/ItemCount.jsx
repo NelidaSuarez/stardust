@@ -20,7 +20,7 @@ const ItemCount = ({initial, stock, onAdd  }) => {
 
   return (
     <div  >
-        <div style={{display:"flex" ,justifyContent:"center", alignItems:"center"}}  >
+        <div style= {{display:"flex" ,justifyContent:"center", alignItems:"center"}}  >
             <button   onClick={decrement}>-</button>
             <h3 >{quantity}</h3>
             <button  onClick={increment}>+</button>

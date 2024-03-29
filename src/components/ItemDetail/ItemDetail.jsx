@@ -5,7 +5,7 @@ import { CartContext } from "../../Context/Context"
 
 
 
-const ItemDetail = ({ id, name, img, category, price, description, stock}) => {
+const ItemDetail = ({ id, name, img, category, price, description, stock, }) => {
     const [ quantityAdded, setQuantityAdded ] = useState(0)
 
     const { addItem } = useContext (CartContext)
@@ -14,10 +14,10 @@ const ItemDetail = ({ id, name, img, category, price, description, stock}) => {
         setQuantityAdded( quantity )    
 
     const item = {
-      id, name, price
+      id, name, price, quantity
     }
 
-    addItem ( item, quantity )
+    addItem ( item )
 
   } 
 
@@ -29,10 +29,11 @@ const ItemDetail = ({ id, name, img, category, price, description, stock}) => {
       
         <img src= {img} style={{width:200}}/>
       
-      
+
         <p> Categoria: {category} </p>
+
         <p> Descripcion:{description} </p>
-        <p>${price} </p>
+        <p>$ {price} </p>
       
       
         <footer>

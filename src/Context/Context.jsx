@@ -27,14 +27,18 @@ export const CartProvider = ({children}) => {
         setCart([]);
     }
 
-    const getTotalQuantity = () => {
+   /*  const getTotalQuantity = () => {
       let accu = 0;
       cart.forEach(prod => {
         accu += prod.quantity
       })
       return accu
-    }
+    } */
 
+    const getTotalQuantity = () => {
+      return cart.reduce((acc, prod) => acc + prod.quantity, 0);
+      }
+ 
     const getTotal = () => {
       let accu = 0;
       cart.forEach((item)=>{

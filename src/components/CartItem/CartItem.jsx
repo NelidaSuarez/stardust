@@ -20,7 +20,7 @@ const CartItem = ({id, name, quantity, price}) => {
       <footer >
         <p >Subtotal: $ {price * quantity}</p>
         <button  onClick={() => handleRemove(id)}>
-          X
+          Eliminar producto
         </button>
       </footer>
     </article>

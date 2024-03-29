@@ -1,34 +1,35 @@
 import './ItemListContainer.css'
+import SpinnerList from '../Spinners/spinners'
 import { useEffect, useState } from "react"
 import ItemList from "../ItemList/ItemList"
 import { useParams } from "react-router-dom"
-import SpinnerList from '../Spinners/spinners'
-
-
 import { db } from '../../services/firebase/'
 import { collection, getDocs, query, where } from 'firebase/firestore'
 
 const ItemListContainer = ({ greetings }) => {
     const [ products, setProducts ] = useState([])
     const [ loading, setLoading ] = useState(true)
-    const { categoryId } = useParams()
-    
 
+    const { categoryId } = useParams()  
 
-    useEffect ( ()=> {
+    useEffect (() => {
         setLoading(true)
+
         const collectioRef = categoryId
-        ? query (collection(db, "products"), where ("category", "==", categoryId ) )
-        :collection(db, "products")
+        ? query (collection(db, 'products'), where('category', "==", categoryId ) )
+        :collection(db, 'products')
+
         getDocs(collectioRef)
-            .then    ((querySnapshot) => {
-                
-                const products = querySnapshot.docs.map((doc)=> {
-                    return {id: doc.id, ...doc.data() }
+            .then(response => {                
+                const productsAdapted = response.docs.map(doc=> {
+                    const data = doc.data()
+                    return  {id: doc.id, ...data }
                 }) 
-                setProducts(products)
+                setProducts(productsAdapted)
             })
-          
+            .catch(error => {
+                console.log(error)
+            })
             .finally(()=> {
                 setLoading(false);
             });

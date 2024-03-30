@@ -2,7 +2,7 @@
 import { useCart } from '../../Context/Context';
 
 
-const CartItem = ({id, name, quantity, price}) => {
+const CartItem = ({id, name,img, quantity, price}) => {
     const {removeItem} = useCart() 
     const handleRemove = (id) => {
       removeItem(id);
@@ -13,6 +13,9 @@ const CartItem = ({id, name, quantity, price}) => {
       <header >
         <h2 >{name}</h2>
       </header>
+      <picture className='img'>
+        <img src={img} style={{width:120}} />
+      </picture>
       <section >
         <p >Cantidad: {quantity}</p>
         <p >Precio x unidad: $ {price}</p>

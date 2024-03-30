@@ -4,6 +4,11 @@
     align-items: center;
     flex-direction: column;
     min-height: 80vh;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-dinamico_23-2148999995.jpg?t=st=1711547411~exp=1711551011~hmac=34a1a73cda272c426d5fd3ba6aa96adb01603ac0c37ae033c714608231ab0a52&w=1380);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
 

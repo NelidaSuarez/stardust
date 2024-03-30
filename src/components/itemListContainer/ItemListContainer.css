@@ -5,16 +5,13 @@
     justify-content: center;
     align-items: center;
     min-height: 80vh;
+   
 }
 
 
 h4{
-    color: rgb(27, 6, 120);
+    font-family: monospace;
+    color: rgb(212, 20, 20);
+    margin-top: 10px;
 }
 
-.fondo{  
-    background-image: url(https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-dinamico_23-2148999995.jpg?t=st=1711547411~exp=1711551011~hmac=34a1a73cda272c426d5fd3ba6aa96adb01603ac0c37ae033c714608231ab0a52&w=1380);
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-}

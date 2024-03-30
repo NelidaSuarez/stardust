@@ -1,3 +1,4 @@
+import './ItemDetail.css'
 import ItemCount from "../ItemCount/ItemCount"
 import { useContext, useState } from "react"
 import { Link } from 'react-router-dom' 
@@ -22,7 +23,7 @@ const ItemDetail = ({ id, name, img, category, price, description, stock, }) => 
   } 
 
   return (
-    <article>
+    <article className='fondo'>
       
         <h1> {name} </h1>
     

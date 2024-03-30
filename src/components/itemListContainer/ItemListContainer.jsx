@@ -53,7 +53,7 @@ const ItemListContainer = ({ greetings }) => {
 
     return (
         <section className='fondo'>
-            <div className='fondo1'>
+            <div>
             <h4>¡Revive la magia con nuestros vinilos y equipos retro!</h4>
         <div className='ItemListContainer'>
             <h1> {greetings} </h1>

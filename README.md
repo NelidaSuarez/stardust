@@ -52,3 +52,4 @@ Para las entregas los requisitos fueron:
 
 
 
+Por utlimo cambiamos los datos de firebase por el archivo .env luego los ingresamos a ignore para evitar subir informacion sencible.

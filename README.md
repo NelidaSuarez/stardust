@@ -1,8 +1,54 @@
-# React + Vite
+Nombre del Proyecto : RetroShop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Es un Ecomerce de productos retro tanto consolas, como vinilos , equipos y juegos de epocas pasadas.
 
-Currently, two official plugins are available:
+Requisitos Previos:
+    -Creacion del entorno con React.js Vite:
+        utilizando:Node.js, y creando en la terminal el proyecto mediante la instalacion de react:
+                    comandos utilizados :
+                        1- npm create vite@latest 
+                        2- cd ecomerce  	
+                        3- npm install  o npm i	
+                        4- npm run dev
+    -Istalacion ded dependecias:
+        -React-Dom
+        -React-router-dom
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    
+Para las entregas los requisitos fueron:
+        -1er Preentrega:
+                -NavBar:
+                -Brand (titulo)
+                -Listado de categorias cicleables
+                -Incorporación de libreria (utilice Bootstrap )
+                -CartWidget (icono y numero hardcordeado fijo)  
+                -Componente contenedor ItemListContainer.jsx (con prop greeting)
+        
+        -2da Preentrega:
+                -Crear rutas utilizando react-router-dom permitiendo la navegabilidad entre el catalogo y los detalles (rutas y links)
+                -componentes (NavBar, Catalogo, Detalle del producto)
+                
+        -3era Entrega Final :
+                -Desarrolla una app de e-comerce rubro a eleccion
+                -Componentes:
+                    NavBar
+                    Catalogo
+                    Detalle del producto
+                    CartContext
+                    CartWidget
+                    ItemListContainer
+                    ItemList
+                    ItemDetailContainer
+                    ItemDetail
+                        ItemQuantitySelector
+                        Description
+                        AddItemButton
+                    Checkout
+
+                    Extras:
+                        CheckoutForm (con base dee datos en firebase)
+                        Spiner
+                        Las imagenes estan en base de datos utilizada
+
+
+

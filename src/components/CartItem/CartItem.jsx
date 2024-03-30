@@ -1,4 +1,4 @@
-
+import './CartItem.css'
 import { useCart } from '../../Context/Context';
 
 
@@ -9,23 +9,30 @@ const CartItem = ({id, name,img, quantity, price}) => {
     };
 
   return (
-    <article >
-      <header >
-        <h2 >{name}</h2>
+    <article className='card-article' >
+
+      <header className='card-herader' >
+       
+        <h2 className='name'>{name}</h2>
+        
       </header>
+
       <picture className='img'>
         <img src={img} style={{width:120}} />
       </picture>
-      <section >
-        <p >Cantidad: {quantity}</p>
-        <p >Precio x unidad: $ {price}</p>
+
+      <section className='card-section-footer'>
+        <p className='card-p'>Cantidad: {quantity}</p>
+        <p className='card-p' >Precio x unidad: $ {price}</p>
       </section>
-      <footer >
-        <p >Subtotal: $ {price * quantity}</p>
-        <button  onClick={() => handleRemove(id)}>
-          Eliminar producto
+
+      <footer className='card-section-footer' >
+        <p className='card-p'>Subtotal: $ {price * quantity}</p>
+        <button className='card-remove' onClick={() => handleRemove(id)}>
+          🗑
         </button>
       </footer>
+
     </article>
   );
 }

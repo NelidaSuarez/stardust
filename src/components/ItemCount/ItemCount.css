@@ -1,0 +1,33 @@
+.div-count{
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+.onClick{
+    background-color: #62a6ef;
+        color: white;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 15px;
+        box-shadow: 4px 6px rgb(170, 171, 170);
+    
+}
+.onClick:hover{
+    background-color: #0056b3;
+    box-shadow: 4px 6px rgb(122, 122, 122);
+}
+
+.onClick2{
+    border-color: transparent;
+    border-radius: 8px;
+    background-color: #4284cb;
+    color: white;
+    box-shadow: 4px 6px rgb(170, 171, 170);
+}
+.onClick2:hover{
+    background-color: #0056b3;
+    box-shadow: 4px 6px rgb(122, 122, 122);
+}

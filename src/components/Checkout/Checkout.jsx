@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import CheckoutForm from '../CheckoutForm/CheckoutForm';
 import { useCart } from "../../Context/Context";
@@ -78,8 +79,8 @@ const Checkout = () => {
 
     return (
         <>
-            <div>Checkout</div>
-            <CheckoutForm onConfirm={createOrder} />
+            <div className="check">Checkout</div>
+            <CheckoutForm  onConfirm={createOrder} />
         </>
     );
 };

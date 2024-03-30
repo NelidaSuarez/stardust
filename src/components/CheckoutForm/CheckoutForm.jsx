@@ -1,3 +1,4 @@
+import './CheckoutForm.css'
 import { useState } from "react";
 
 const CheckoutForm = ({ onConfirm }) => {
@@ -17,7 +18,7 @@ const CheckoutForm = ({ onConfirm }) => {
     };
 
     return (
-        <form onSubmit={handleConfirm}>
+        <form onSubmit={handleConfirm} className="form-container">
             <label>
                 Nombre:
                 <input

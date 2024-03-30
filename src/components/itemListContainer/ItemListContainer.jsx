@@ -54,9 +54,10 @@ const ItemListContainer = ({ greetings }) => {
     return (
         <section className='fondo'>
             <div className='fondo1'>
+            <h4>¡Revive la magia con nuestros vinilos y equipos retro!</h4>
         <div className='ItemListContainer'>
             <h1> {greetings} </h1>
-            <h4>¡Revive la magia con nuestros vinilos y equipos retro!</h4>
+            
 
             <ItemList products={products}/>
         </div>

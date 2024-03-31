@@ -49,6 +49,9 @@ Para las entregas los requisitos fueron:
                         CheckoutForm (con base dee datos en firebase)
                         Spiner
                         Las imagenes estan en base de datos utilizada
+                        proyecto subido a : https://retroshops.vercel.app/
+
+                        
 
 
 

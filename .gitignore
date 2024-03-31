@@ -11,7 +11,7 @@ node_modules
 dist-ssr
 *.local
 services
-.env
+*.env
 
 
 # Editor directories and files
